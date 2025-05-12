@@ -1,9 +1,8 @@
-
 import { useState } from "react";
 import { useToast } from "@/components/ui/use-toast";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { Check, Upload, Plus, Book, MessageSquare, HelpCircle, Calendar, DollarSign } from "lucide-react";
+import { Check, Upload, Plus, Book, MessageSquare, HelpCircle, Calendar, DollarSign, Users } from "lucide-react";
 
 const GetStarted = () => {
   const { toast } = useToast();
